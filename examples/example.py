@@ -7,7 +7,7 @@ from flask_googlemaps import Map, icons
 app = Flask(__name__, template_folder="templates")
 
 # you can set key as config
-#app.config['GOOGLEMAPS_KEY'] = "AIzaSyDP0GX-Wsui9TSDxtFNj2XuKrh7JBTPCnU"
+app.config['GOOGLEMAPS_KEY'] = "AIzaSyA1bLqqQwj8Ls4E_fcK-YTpc_pL_oJZ3ko"
 
 # you can also pass key here
 GoogleMaps(
